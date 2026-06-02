@@ -82,7 +82,7 @@ Example:
 
 The confusion matrix shows the model's prediction performance across successful and failed transactions.
 
-![Confusion Matrix](confusion_matrix.png.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ---
 
@@ -90,7 +90,7 @@ The confusion matrix shows the model's prediction performance across successful 
 
 The chart below highlights the most influential factors affecting transaction outcomes.
 
-![Feature Importance]()
+![Feature Importance](feature_importance.png)
 
 ---
 
