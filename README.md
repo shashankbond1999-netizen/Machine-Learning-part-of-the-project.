@@ -1,5 +1,4 @@
 # Payment Failure Prediction using Machine Learning
-# Payment Failure Prediction using Machine Learning
 
 ## Project Overview
 
@@ -83,7 +82,7 @@ Example:
 
 The confusion matrix shows the model's prediction performance across successful and failed transactions.
 
-![Confusion Matrix](Confusion_matrix.png)
+![Confusion Matrix](Confusionmatrix.png)
 
 ---
 
@@ -91,7 +90,7 @@ The confusion matrix shows the model's prediction performance across successful 
 
 The chart below highlights the most influential factors affecting transaction outcomes.
 
-![Feature Importance](feature_importancePML.png)
+![Feature Importance]( feature_importance  )
 
 ---
 
