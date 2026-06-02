@@ -41,13 +41,11 @@ Model Used:
 * Recall
 * F1 Score
 # Confusion matrix 
-
-
+(Confusion matrix.png)
 ## Feature Importance
 
 The model identifies the most influential features affecting transaction success and failure.
-
-![Feature Importance](feature_importancePML.png)
+(feature_importance PML.png)
 
 ## Business Impact
 
