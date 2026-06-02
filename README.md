@@ -1,12 +1,17 @@
 # Payment Failure Prediction using Machine Learning
+# Payment Failure Prediction using Machine Learning
 
 ## Project Overview
 
-This project predicts whether a payment transaction will succeed or fail using Machine Learning techniques. The objective is to help fintech companies identify transaction failure patterns and improve payment success rates.
+This project predicts whether a payment transaction will succeed or fail using Machine Learning techniques. The objective is to help fintech companies identify transaction failure patterns, reduce failed transactions, and improve customer experience.
+
+---
 
 ## Business Problem
 
-Payment failures can negatively impact customer experience and merchant revenue. By predicting transaction failures in advance, businesses can take proactive measures to improve transaction success rates.
+Payment failures negatively impact merchants, customers, and overall revenue. By analyzing transaction data and predicting transaction outcomes, businesses can proactively identify risk factors and improve payment success rates.
+
+---
 
 ## Tools & Technologies
 
@@ -18,6 +23,8 @@ Payment failures can negatively impact customer experience and merchant revenue.
 * Matplotlib
 * Machine Learning
 
+---
+
 ## Dataset Features
 
 * Transaction Amount
@@ -28,11 +35,31 @@ Payment failures can negatively impact customer experience and merchant revenue.
 * City
 * Transaction Status (Target Variable)
 
+---
+
+## Data Preprocessing
+
+* Handled missing values
+* Encoded categorical variables
+* Feature selection
+* Train-test split (80:20)
+
+---
+
 ## Machine Learning Model
 
-Model Used:
+### Model Used
 
 * Random Forest Classifier
+
+### Objective
+
+Predict whether a transaction will:
+
+* Success
+* Failed
+
+---
 
 ## Evaluation Metrics
 
@@ -40,31 +67,86 @@ Model Used:
 * Precision
 * Recall
 * F1 Score
-# Confusion matrix 
-(Confusion matrix.png)
+
+> Update this section with your actual model results.
+
+Example:
+
+* Accuracy: XX%
+* Precision: XX%
+* Recall: XX%
+* F1 Score: XX%
+
+---
+
+## Confusion Matrix
+
+The confusion matrix shows the model's prediction performance across successful and failed transactions.
+
+![Confusion Matrix](Confusion_matrix.png)
+
+---
+
 ## Feature Importance
 
-The model identifies the most influential features affecting transaction success and failure.
-(feature_importance PML.png)
+The chart below highlights the most influential factors affecting transaction outcomes.
+
+![Feature Importance](feature_importancePML.png)
+
+---
+
+## Key Insights
+
+* Payment method significantly impacts transaction success.
+* Certain banks exhibit higher failure rates.
+* Device type influences transaction outcomes.
+* Merchant category contributes to transaction risk patterns.
+* Transaction amount impacts prediction probability.
+
+---
 
 ## Business Impact
 
+This solution can help fintech companies:
+
 * Reduce transaction failures
 * Improve customer experience
-* Improve merchant success rates
-* Support operational decision-making
+* Increase merchant success rates
+* Improve operational efficiency
+* Support data-driven decision-making
+
+---
 
 ## Repository Structure
 
 payment-failure-prediction-ml/
-│
+
 ├── payment_failure_prediction.ipynb
+
 ├── payment_operations_analytics_dataset.csv
+
 ├── feature_importance.png
+
+├── confusion_matrix.png
+
 ├── README.md
 
-## Project Type
+---
 
-Machine Learning | Classification | FinTech Analytics
-# Machine-Learning-part-of-the-project.
-Machine Learning project to predict payment transaction failures using Random Forest Classifier.
+## Future Improvements
+
+* XGBoost Implementation
+* Hyperparameter Tuning
+* Real-time Transaction Monitoring
+* Fraud Detection Integration
+
+---
+
+## Author
+
+Sai Shashank R
+
+MBA Business Analytics | Data Analyst | Business Analyst
+
+Python | SQL | Power BI | Machine Learning
+
